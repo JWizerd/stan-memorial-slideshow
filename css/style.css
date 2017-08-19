@@ -109,7 +109,7 @@ h1 {
 
 h2 {
   position: relative;
-  top: -100px;
+  top: -60px;
 }
 
 @media all and (max-width: 1199px) {
