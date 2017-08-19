@@ -111,3 +111,9 @@ h2 {
   position: relative;
   top: -100px;
 }
+
+@media all and (max-width: 1199px) {
+  h2 {
+    display: none;
+  }  
+}
