@@ -3,10 +3,11 @@ var timer    = null,
     audio    = document.getElementById("audio")
 
 function slideAnimation() {
-  $('.slide').fadeOut('slow', function() {
-    $('.slide').attr('src', 'assets/img/' + count + '.jpg')
-  })
-  $('.slide').fadeIn('slow')
+  // $('.slide').fadeOut('slow', function() {
+  //   $('.slide').attr('src', 'assets/img/' + count + '.jpg')
+  // })
+  // $('.slide').fadeIn('slow')
+  $('.slide').attr('src', 'assets/img/' + count + '.jpg')
 }
 
 function slideInterval(slideCount) {
